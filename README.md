@@ -1,6 +1,6 @@
 # Protein Similarity Search using ProtT5-XL-UniRef50 and Amazon OpenSearch
 
-This repository contains code and notebooks that detail a protein similarity search solution using the [ProtT5-XL-UniRef50m](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main), [Amazon OpenSearch Service](https://aws.amazon.com/opensearch-service/) and [Amazon Sagemaker](https://aws.amazon.com/sagemaker/). The solution is introduced in [this blog post](link-to-blogpost).
+This repository contains code and notebooks that detail a protein similarity search solution using the [ProtT5-XL-UniRef50 model](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main), [Amazon OpenSearch Service](https://aws.amazon.com/opensearch-service/) and [Amazon Sagemaker](https://aws.amazon.com/sagemaker/). The solution is introduced in [this blog post](link-to-blogpost).
 
 A common workflow within drug discovery is searching for similar proteins, as similar proteins likely have similar properties. Given an initial protein, researchers often look for variations which exhibit stronger binding, better solubility, or reduced toxicity. With this solution, we will propose an architecture based on OpenSearch for similarity search and the open source model [ProtT5-XL-UniRef50](https://huggingface.co/Rostlab/prot_t5_xl_uniref50/tree/main), from which we will use to generate embeddings. Embeddings are vectors which encode properties - similar embeddings have similar properties.
 

@@ -56,7 +56,7 @@ To clean up the resources created by this solution please:
 * shutdown  the Sagemaker Studio Notebooks you were using, [here a guide](https://docs.aws.amazon.com/sagemaker/latest/dg/notebooks-run-and-manage-shut-down.html).
 
 ## Security
-See CONTRIBUTING for more information.
+See [CONTRIBUTING](CONTRIBUTING.md) for more information.
 
 ## License
-This library is licensed under the MIT-0 License. See the LICENSE file.
+This library is licensed under the MIT-0 License. See the [LICENSE](LICENSE.txt) file.
